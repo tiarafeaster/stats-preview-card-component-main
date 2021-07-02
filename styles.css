@@ -6,32 +6,42 @@ body {
 
 .card {
   background-color: hsl(244, 38%, 16%);
+  margin: 100px auto;
 }
 
-h5,
-small {
+h5 {
   color: hsl(0, 0%, 100%);
-}
-
-small {
-  justify-content: space-between;
+  margin: 0 auto 0 0;
 }
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
+  font-size: 9px;
 }
 
 strong {
   color: hsl(277, 64%, 61%);
 }
 
-.card-header {
-  color: hsla(0, 0%, 100%, 0.6);
-  display: flex;
-  justify-content: space-between;
+.feature {
+  display: inline-block;
+  margin: 0 auto 0 0;
+  font-size: 15px;
 }
 
-.text-muted {
-  display: flex;
-  justify-content: space-between;
+.item {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 9px;
+  margin-top: 0;
+}
+
+.stats {
+  margin: 0 auto 0 0;
+}
+
+.blend1 {
+  background-blend-mode: screen;
+  background-image: url("images/image-header-desktop.jpg");
+  background-color: hsl(277, 64%, 61%);
+  background-size: cover;
 }
